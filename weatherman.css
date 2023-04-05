@@ -1,0 +1,96 @@
+/* styles.css */
+
+/* Set default font family and background color */
+body {
+    font-family: 'Open Sans', sans-serif;
+    background: linear-gradient(rgb(47,150,163),rgb(48,62,143));
+    height: 100vh;
+  }
+  
+  /* Style for the 5-day weather forecast heading */
+  h1 {
+    text-align: center;
+    margin: 30px 0;
+    font-size: 36px;
+    color: #333;
+    text-transform: uppercase;
+  }
+  
+  /* Style for the search button and input */
+  .btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+  
+  form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff36;
+    border-radius: 5px;
+    padding: 15px;
+  }
+  
+  label {
+    font-size: 20px;
+    margin-right: 10px;
+  }
+  
+  input[type="text"] {
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    margin-right: 10px;
+    width: 200px;
+    background-color: #ffffff36;
+  }
+  
+  button[type="submit"] {
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #4a4949;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #ffffff36;
+  }
+  
+  /* Styles for the 5-day weather forecast */
+  .weather-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    margin: 0 auto;
+    max-width: 800px;
+  }
+  
+  .day {
+    width: 200px;
+    padding: 20px 10px;
+    margin: 10px;
+    background-color: #ffffff36;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  .day-name {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .temp {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+
+ 
